@@ -1,0 +1,473 @@
+
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/chunked.rb:23:in `each'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/http/response.rb:43:in `each'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.0/lib/active_record/query_cache.rb:45:in `each'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:458:in `each'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/body_proxy.rb:23:in `method_missing'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/unicorn-4.1.1/lib/unicorn/http_response.rb:41:in `http_response_write'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/unicorn-4.1.1/lib/unicorn/http_server.rb:536:in `process_client'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/unicorn-4.1.1/lib/unicorn/http_server.rb:600:in `worker_loop'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/unicorn-4.1.1/lib/unicorn/http_server.rb:485:in `spawn_missing_workers'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/unicorn-4.1.1/lib/unicorn/http_server.rb:135:in `start'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/unicorn-4.1.1/bin/unicorn_rails:209:in `<top (required)>'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/bin/unicorn_rails:19:in `load'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/bin/unicorn_rails:19:in `<main>'
+Rendered files/check_progress.js.erb (0.9ms)
+
+ActionView::Template::Error (/Users/drailskid/Work/GVS/uploader/app/views/files/check_progress.js.erb:17: syntax error, unexpected keyword_end
+@output_buffer.append= ( end );@output_buffer.to_s
+                            ^
+/Users/drailskid/Work/GVS/uploader/app/views/files/check_progress.js.erb:18: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/drailskid/Work/GVS/uploader/app/views/files/check_progress.js.erb:20: syntax error, unexpected keyword_end, expecting ')'):
+    14: <%= 10.times do |i| %>
+    15:   $(".span4").append("I AM #<%= 4 %>")
+    16:   <%#= sleep(3) %>
+    17: <%= end %>
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/template.rb:282:in `module_eval'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/template.rb:282:in `compile'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/template.rb:190:in `compile!'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/template.rb:143:in `block in render'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/notifications.rb:55:in `instrument'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/template.rb:142:in `render'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/streaming_template_renderer.rb:94:in `block in delayed_render'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `block in instrument'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `block in instrument'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/streaming_template_renderer.rb:70:in `delayed_render'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/streaming_template_renderer.rb:56:in `block in render_template'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/streaming_template_renderer.rb:23:in `call'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/streaming_template_renderer.rb:23:in `each'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/chunked.rb:23:in `each'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/http/response.rb:43:in `each'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.0/lib/active_record/query_cache.rb:45:in `each'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:458:in `each'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/body_proxy.rb:23:in `method_missing'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/unicorn-4.1.1/lib/unicorn/http_response.rb:41:in `http_response_write'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/unicorn-4.1.1/lib/unicorn/http_server.rb:536:in `process_client'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/unicorn-4.1.1/lib/unicorn/http_server.rb:600:in `worker_loop'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/unicorn-4.1.1/lib/unicorn/http_server.rb:485:in `spawn_missing_workers'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/unicorn-4.1.1/lib/unicorn/http_server.rb:135:in `start'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/unicorn-4.1.1/bin/unicorn_rails:209:in `<top (required)>'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/bin/unicorn_rails:19:in `load'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/bin/unicorn_rails:19:in `<main>'
+
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-09 15:28:17 -1000
+  Processing by FilesController#upload as HTML
+Rendered files/upload.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-09 15:28:17 -1000
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2011-11-09 15:28:17 -1000
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/files.css?body=1" for 127.0.0.1 at 2011-11-09 15:28:17 -1000
+Served asset /files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-09 15:28:17 -1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-09 15:28:17 -1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/files.js?body=1" for 127.0.0.1 at 2011-11-09 15:28:17 -1000
+Served asset /files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/swfupload.js?body=1" for 127.0.0.1 at 2011-11-09 15:28:17 -1000
+Served asset /swfupload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-09 15:28:17 -1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/file.png" for 127.0.0.1 at 2011-11-09 15:28:17 -1000
+Served asset /file.png - 304 Not Modified (0ms)
+
+
+Started POST "/files/process_file" for 127.0.0.1 at 2011-11-09 15:28:53 -1000
+  Processing by FilesController#process_file as HTML
+  Parameters: {"Filename"=>"71521789.mp4", "_uploader_session"=>"BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJTJmNzRhNGRlZGJiMTI0YjBlODI5Y2U1ODcwNGU1NzUwBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMWpoR2V6QTBHbExKRkNybCtJZ3lZeUJKMnlnZjFibUtZUGNHZW9Ia1Z5NWs9BjsARg==--358654878ead53657d3126386da75a1533b0b5a5", "authenticity_token"=>"jhGezA0GlLJFCrl+IgyYyBJ2ygf1bmKYPcGeoHkVy5k=", "Filedata"=>#<ActionDispatch::Http::UploadedFile:0x007fceadc179c8 @original_filename="71521789.mp4", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"Filedata\"; filename=\"71521789.mp4\"\r\nContent-Type: application/octet-stream\r\n", @tempfile=#<File:/var/folders/_l/x_8zmzyd7w37k0wyhk299z200000gn/T/RackMultipart20111109-50850-q35fua>>, "Upload"=>"Submit Query"}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 25ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:28:56 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 923ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:28:59 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 985ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:29:02 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 1003ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:29:05 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 997ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:29:08 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 1015ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:29:11 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 1015ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:29:14 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 938ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:29:17 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 931ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:29:20 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 930ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:29:23 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 923ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:29:26 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 954ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:29:29 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 911ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:29:32 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 950ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:29:35 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 930ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:29:38 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 922ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:29:41 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 920ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:29:44 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 979ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:29:47 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 951ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:29:50 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 934ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:29:53 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 952ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:29:56 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 952ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:29:59 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 950ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:30:02 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 955ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:30:05 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 950ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:30:08 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 948ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:30:11 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 965ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:30:14 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 936ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:30:17 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 954ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:30:20 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 973ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:30:23 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 951ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:30:26 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+Completed 200 OK in 917ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress" for 127.0.0.1 at 2011-11-09 15:32:01 -1000
+  Processing by FilesController#check_progress as */*
+Completed 200 OK in 805ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/other_check_progress" for 127.0.0.1 at 2011-11-09 15:32:15 -1000
+
+ActionController::RoutingError (No route matches [GET] "/files/other_check_progress"):
+  
+
+Rendered /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/files/other_check_progress" for 127.0.0.1 at 2011-11-09 15:33:44 -1000
+  Processing by FilesController#other_check_progress as */*
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+ERROR: compiling _app_views_files_other_check_progress_js_erb___2125479173411735895_70262806017980 RAISED /Users/drailskid/Work/GVS/uploader/app/views/files/other_check_progress.js.erb:17: syntax error, unexpected keyword_end
+@output_buffer.append= ( end );@output_buffer.to_s
+                            ^
+/Users/drailskid/Work/GVS/uploader/app/views/files/other_check_progress.js.erb:18: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/drailskid/Work/GVS/uploader/app/views/files/other_check_progress.js.erb:20: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_files_other_check_progress_js_erb___2125479173411735895_70262806017980(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "files/other_check_progress";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;
+
+
+
+
+
+
+
+
+
+
+
+@output_buffer.safe_concat('
+');@output_buffer.append=  10.times do |i| @output_buffer.safe_concat('
+');@output_buffer.safe_concat('  $(".span4").append("I AM #');@output_buffer.append= ( 4 );@output_buffer.safe_concat('")
+');
+@output_buffer.append= ( end );@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/template.rb:282:in `module_eval'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/template.rb:282:in `compile'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/template.rb:190:in `compile!'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/template.rb:143:in `block in render'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/notifications.rb:55:in `instrument'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/template.rb:142:in `render'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/streaming_template_renderer.rb:94:in `block in delayed_render'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `block in instrument'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/streaming_template_renderer.rb:70:in `delayed_render'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/streaming_template_renderer.rb:56:in `block in render_template'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/streaming_template_renderer.rb:23:in `call'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/streaming_template_renderer.rb:23:in `each'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/chunked.rb:23:in `each'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/http/response.rb:43:in `each'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.0/lib/active_record/query_cache.rb:45:in `each'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:458:in `each'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/body_proxy.rb:23:in `method_missing'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/unicorn-4.1.1/lib/unicorn/http_response.rb:41:in `http_response_write'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/unicorn-4.1.1/lib/unicorn/http_server.rb:536:in `process_client'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/unicorn-4.1.1/lib/unicorn/http_server.rb:600:in `worker_loop'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/unicorn-4.1.1/lib/unicorn/http_server.rb:485:in `spawn_missing_workers'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/unicorn-4.1.1/lib/unicorn/http_server.rb:135:in `start'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/unicorn-4.1.1/bin/unicorn_rails:209:in `<top (required)>'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/bin/unicorn_rails:19:in `load'
+/Users/drailskid/.rvm/gems/ruby-1.9.2-p290/bin/unicorn_rails:19:in `<main>'
+Rendered files/other_check_progress.js.erb (0.7ms)
+
+ActionView::Template::Error (/Users/drailskid/Work/GVS/uploader/app/views/files/other_check_progress.js.erb:17: syntax error, unexpected keyword_end
+@output_buffer.append= ( end );@output_buffer.to_s
+                            ^
+/Users/drailskid/Work/GVS/uploader/app/views/files/other_check_progress.js.erb:18: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/drailskid/Work/GVS/uploader/app/views/files/other_check_progress.js.erb:20: syntax error, unexpected keyword_end, expecting ')'):
+    14: <%= 10.times do |i| %>
+    15:   $(".span4").append("I AM #<%= 4 %>")
+    16:   <%#= sleep(3) %>
+    17: <%= end %>
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/template.rb:282:in `module_eval'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/template.rb:282:in `compile'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/template.rb:190:in `compile!'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/template.rb:143:in `block in render'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/notifications.rb:55:in `instrument'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/template.rb:142:in `render'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/streaming_template_renderer.rb:94:in `block in delayed_render'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `block in instrument'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `block in instrument'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/streaming_template_renderer.rb:70:in `delayed_render'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/streaming_template_renderer.rb:56:in `block in render_template'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/streaming_template_renderer.rb:23:in `call'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_view/renderer/streaming_template_renderer.rb:23:in `each'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/chunked.rb:23:in `each'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/http/response.rb:43:in `each'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.0/lib/active_record/query_cache.rb:45:in `each'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:458:in `each'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.5/lib/rack/body_proxy.rb:23:in `method_missing'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/unicorn-4.1.1/lib/unicorn/http_response.rb:41:in `http_response_write'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/unicorn-4.1.1/lib/unicorn/http_server.rb:536:in `process_client'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/unicorn-4.1.1/lib/unicorn/http_server.rb:600:in `worker_loop'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/unicorn-4.1.1/lib/unicorn/http_server.rb:485:in `spawn_missing_workers'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/unicorn-4.1.1/lib/unicorn/http_server.rb:135:in `start'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/gems/unicorn-4.1.1/bin/unicorn_rails:209:in `<top (required)>'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/bin/unicorn_rails:19:in `load'
+  /Users/drailskid/.rvm/gems/ruby-1.9.2-p290/bin/unicorn_rails:19:in `<main>'
+
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-09 15:37:43 -1000
+  Processing by FilesController#upload as HTML
+Rendered files/upload.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 73ms (Views: 72.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-09 15:37:43 -1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2011-11-09 15:37:43 -1000
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/files.css?body=1" for 127.0.0.1 at 2011-11-09 15:37:43 -1000
+Served asset /files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-09 15:37:43 -1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-09 15:37:43 -1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/files.js?body=1" for 127.0.0.1 at 2011-11-09 15:37:43 -1000
+Served asset /files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/swfupload.js?body=1" for 127.0.0.1 at 2011-11-09 15:37:43 -1000
+Served asset /swfupload.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-09 15:37:43 -1000
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/file.png" for 127.0.0.1 at 2011-11-09 15:37:44 -1000
+Served asset /file.png - 304 Not Modified (0ms)
+
+
+Started POST "/files/process_file" for 127.0.0.1 at 2011-11-09 15:38:18 -1000
+  Processing by FilesController#process_file as HTML
+  Parameters: {"Filename"=>"71521789.mp4", "_uploader_session"=>"BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJTJmNzRhNGRlZGJiMTI0YjBlODI5Y2U1ODcwNGU1NzUwBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMWpoR2V6QTBHbExKRkNybCtJZ3lZeUJKMnlnZjFibUtZUGNHZW9Ia1Z5NWs9BjsARg==--358654878ead53657d3126386da75a1533b0b5a5", "authenticity_token"=>"jhGezA0GlLJFCrl+IgyYyBJ2ygf1bmKYPcGeoHkVy5k=", "Filedata"=>#<ActionDispatch::Http::UploadedFile:0x007fcead96e6e0 @original_filename="71521789.mp4", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"Filedata\"; filename=\"71521789.mp4\"\r\nContent-Type: application/octet-stream\r\n", @tempfile=#<File:/var/folders/_l/x_8zmzyd7w37k0wyhk299z200000gn/T/RackMultipart20111109-50850-12euzva>>, "Upload"=>"Submit Query"}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:38:21 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:39:35 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:40:40 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}
+
+
+Started GET "/files/check_progress?filename=71521789.mp4&size=50813056" for 127.0.0.1 at 2011-11-09 15:41:44 -1000
+  Processing by FilesController#check_progress as JSON
+  Parameters: {"filename"=>"71521789.mp4", "size"=>"50813056"}

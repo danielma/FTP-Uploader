@@ -1,0 +1,17 @@
+<%# 
+ftp = start_ftp
+begin
+  size = ftp.size(params[:filename]).to_f
+rescue # if the file doesn't exist
+  ftp.quit
+  render :json => {"percentage" => 0} and return
+end
+total = params[:size].to_f
+ftp.quit
+render :json => {"percentage" => (size / total)}
+%>
+
+<%= 10.times do |i| %>
+  $(".span4").append("I AM #<%= 4 %>")
+  <%#= sleep(3) %>
+<%= end %>

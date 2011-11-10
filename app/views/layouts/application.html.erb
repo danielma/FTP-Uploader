@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Uploader</title>
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+  
+  <script type="text/javascript" charset="utf-8">
+    var swfu;
+    
+    $(document).ready(function() {
+       swfu = new SWFUpload({
+        upload_url: "/files/process_file",
+        flash_url: "/swf/swfupload.swf",
+        file_size_limi: "1 GB",
+        file_types: "*.mp4;*.mov;*.avi",
+        file_types_description: "Movie Files",
+        debug: true, 
+        
+        post_params : {
+          "<%= key = Rails.application.config.session_options[:key] %>" : "<%= cookies[key] %>",
+          "<%= request_forgery_protection_token %>" : "<%= form_authenticity_token %>",
+        },
+        
+        button_width: "90",
+				button_height: "28",
+				button_placeholder_id: "selectFilesButton",
+				button_image_url: "<%= asset_path 'file.png' %>",           
+        
+        file_queued_handler : swf.fileQueued,
+        file_queue_error_handler : swf.fileQueueError,
+        upload_start_handler : swf.uploadStart,
+        upload_progress_handler : swf.uploadProgress,
+        upload_success_handler : swf.uploadSuccess,
+        upload_complete_handler : swf.uploadComplete
+      });
+    });
+  </script>
+</head>
+<body>
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="container">
+        <a href="/" class="brand">Grassroots News</a>
+        <ul class="secondary-nav">
+          <li><a href="#">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <% if flash[:notice] %>
+      <div class="row">
+        <div class="span16">
+          <div class="alert-message warning">
+            <p><%= flash[:notice] %></p>
+          </div>
+        </div>
+      </div>
+    <% end -%>
+    <%= yield %>
+  </div>
+
+</body>
+</html>
