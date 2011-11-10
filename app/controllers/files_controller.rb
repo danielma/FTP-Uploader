@@ -36,10 +36,12 @@ class FilesController < ApplicationController
   private
   
   def start_ftp
-    ftp = Net::FTP.new('64.75.242.213')
-    ftp.login("gni", "GRASSroots2011")
+    server  = "ftp.example.com"
+    user    = "user"
+    pass    = "pass"
+    ftp = Net::FTP.new(server)
+    ftp.login(user, pass)
     ftp.passive = true
-    # ftp.chdir("Test_Uploads")
     return ftp
   end
 
